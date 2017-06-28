@@ -2,11 +2,6 @@ language: cpp
 compiler: gcc
 dist: trusty
 
-before_install:
-  # C++11
-  - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
-
 install:
   # Qt5
   - sudo apt-get install -qq libqt5webkit5-dev qtdeclarative5-dev
